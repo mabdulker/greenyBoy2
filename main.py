@@ -2,10 +2,10 @@ import os
 from random import randint
 
 # how far back you want to fill commit graph
-START = 30
-DAYS = 10
+START = 80
+DAYS = 50
 # min and max amount of commits on a given day
-MIN_VOLUME = 0
+MIN_VOLUME = 1
 MAX_VOLUME = 20
 
 
