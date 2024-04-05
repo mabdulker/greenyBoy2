@@ -2,11 +2,11 @@ import os
 from random import randint
 
 # how far back you want to fill commit graph
-START = 200
-DAYS = 40
+START = 1
+DAYS = 500
 # min and max amount of commits on a given day
 MIN_VOLUME = 1
-MAX_VOLUME = 20
+MAX_VOLUME = 2
 
 
 def greeny():
