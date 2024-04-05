@@ -2,7 +2,7 @@ import os
 from random import randint
 
 # how far back you want to fill commit graph
-DAYS = 2
+DAYS = 1000
 # min and max amount of commits on a given day
 MIN_VOLUME = 0
 MAX_VOLUME = 20
@@ -18,7 +18,7 @@ def greeny():
             print(type(d))
             os.system(f'git commit --date="{d}" -m "commit message"')
 
-    # os.system("git push -u origin main")
+    os.system("git push -u origin main")
 
 
 if __name__ == "__main__":
