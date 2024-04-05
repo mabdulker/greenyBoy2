@@ -18,7 +18,7 @@ def greeny():
             print(type(d))
             os.system(f'git commit --date="{d}" -m "commit message"')
 
-    os.system("git push -u origin main")
+    # os.system("git push -u origin main")
 
 
 if __name__ == "__main__":
